@@ -1,4 +1,6 @@
-module.exports = [
+import { Zipcode } from "../type"
+
+const zipcodes: Zipcode[] = [
     { 'id': '100臺北市中正區', 'zipcode': 100, 'county': '臺北市', 'city': '中正區' },
     { 'id': '103臺北市大同區', 'zipcode': 103, 'county': '臺北市', 'city': '大同區' },
     { 'id': '104臺北市中山區', 'zipcode': 104, 'county': '臺北市', 'city': '中山區' },
@@ -371,3 +373,5 @@ module.exports = [
     { 'id': '211連江縣莒光鄉', 'zipcode': 211, 'county': '連江縣', 'city': '莒光鄉' },
     { 'id': '212連江縣東引鄉', 'zipcode': 212, 'county': '連江縣', 'city': '東引鄉' }
 ]
+
+export default zipcodes
